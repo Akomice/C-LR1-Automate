@@ -1,28 +1,16 @@
-# 2048
+# Programmation impérative, projet 2021 : Automates LR1
 
-Amusez-vous bien à jouer notre version du 2048 !
+Le but de ce projet est d'implanter un programme qui exécute des automates LR(1). Ces derniers servent à reconnaître des langages de programmation
 
 # Compilation 
 
-Tout d'abord, placez-vous dans le répertoire des fichiers.
+Tout d'abord, veuillez vous placer dans le répertoire des fichiers
 
-Pour compiler le jeu au niveau 0 (affichage sur le terminal, déplacement avec z,q,s,d)
-Veuillez écrire dans votre terminal la commande suivante :
+Pour compiler le code, il vous suffit de taper la commande 'make' dans le terminal
 
-#### make modele
+Cette commande créera l'exécutable nommé **lr_parser** 
 
-Pour compiler le jeu au niveau 2 (affichage en couleur sur le terminal, déplacement avec les flèches directionnelles) 
-Veuillez écrire dans votre terminal la commande suivante :
+# Execution 
 
-#### make niveau_2
-
-Pour compiler le jeu au niveau 3 (affichage sur une interface graphique, déplacement avec les flèches directionnelles) 
-Veuillez écrire dans votre terminal la commande suivante :
-
-#### make niveau_3
-
-Si vous souhaitez compiler et executer le fichier correspondant aux tests des fonctions du jeu 
-Veuillez écrire dans votre terminal la commande suivante :
-
-#### make fichier-test
+Après compilation, il vous suffit d'executer la commande './lr_parser file.aut' où file.aut est le fichier contenant les renseignements sur l'automate choisi
 
