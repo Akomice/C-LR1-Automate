@@ -6,11 +6,11 @@ Le but de ce projet est d'implanter un programme qui exécute des automates LR(1
 
 Tout d'abord, veuillez vous placer dans le répertoire des fichiers
 
-Pour compiler le code, il vous suffit de taper la commande 'make' dans le terminal
+Pour compiler le code, il vous suffit de taper la commande `make` dans le terminal
 
 Cette commande créera l'exécutable nommé **lr_parser** 
 
 # Execution 
 
-Après compilation, il vous suffit d'executer la commande './lr_parser file.aut' où file.aut est le fichier contenant les renseignements sur l'automate choisi
+Après compilation, il vous suffit d'executer la commande `./lr_parser file.aut` où file.aut est le fichier contenant les renseignements sur l'automate choisi
 
