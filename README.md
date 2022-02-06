@@ -12,5 +12,4 @@ Cette commande créera l'exécutable nommé **lr_parser**
 
 # Execution 
 
-Après compilation, il vous suffit d'executer la commande `./lr_parser file.aut` où file.aut est le fichier contenant les renseignements sur l'automate choisi
-
+Après compilation, il vous suffit de taper la commande `./lr_parser file.aut` dans le terminal, où file.aut est le fichier contenant les renseignements sur l'automate choisi
