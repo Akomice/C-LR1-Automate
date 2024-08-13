@@ -1,15 +1,15 @@
-# Programmation impérative, projet 2021 : Automates LR1
+# Imperative programming, 2021 project : LR1 automatons
 
-Le but de ce projet est d'implanter un programme qui exécute des automates LR(1). Ces derniers servent à reconnaître des langages de programmation
+The goal of this project is to implement a program that executes LR(1) automata. These are used to recognize programming languages
 
 # Compilation 
 
-Tout d'abord, veuillez vous placer dans le répertoire des fichiers
+First, please go to the files directory
 
-Pour compiler le code, il vous suffit de taper la commande `make` dans le terminal
+To compile the code, simply type the `make` command in the terminal
 
-Cette commande créera l'exécutable nommé **lr_parser** 
+This command will create the executable named **lr_parser** 
 
 # Execution 
 
-Après compilation, il vous suffit de taper la commande `./lr_parser file.aut` dans le terminal, où file.aut est le fichier contenant les renseignements sur l'automate choisi
+After compilation, simply type the command `./lr_parser file.aut` in the terminal, where file.aut is the file containing information about the chosen automaton
